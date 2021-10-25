@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG BasicConcepts">
+  
+	<test name ="Regression Testing">
+    
+    <classes>
+      <class name="testNgConcepts.TestNgBasics"/>
+      <class name="testNgConcepts.GoogleTest"/>
+      <class name="testNgConcepts.AssertConcepts"/>
+      <class name="testNgConcepts.InvocationCount"/>
+      <class name="testNgConcepts.ExceptionalTimeoutTest"/>
+      <class name="testNgConcepts.AnnotationConcept"/>
+    </classes>
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

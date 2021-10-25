@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG BasicConcepts">
+  
+	<test name ="Regression Testing">
+	
+	<parameter name = "url" value="http://www.testyou.in/Login.aspx" />
+	<parameter name = "emailid" value= "" />
+	<parameter name = "browser" value = "chrome" />
+    
+    <classes>
+      <class name="parameter.PassParametersfromXML"/>
+    </classes>
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
