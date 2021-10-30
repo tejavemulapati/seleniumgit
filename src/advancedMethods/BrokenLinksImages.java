@@ -16,9 +16,10 @@ public class BrokenLinksImages {
 	public static List<WebElement> linkslist;
 	public static ArrayList<WebElement> valid_url_list;
 	public static HttpURLConnection httpurlconnection;
+	//
 	
 	public static void main(String[] args) throws MalformedURLException, IOException {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Teja_Vemulapati.ASIA-PACIFIC\\Documents\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Teja\\Documents\\eclipse\\webdriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.testyou.in/Login.aspx");
